@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel pages/index.html"
+    "dev": "npm run parcel && npm run server",
+    "parcel": "parcel pages/index.html",
+    "server": "node ./api/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +19,6 @@
   "devDependencies": {
     "eslint": "^8.32.0",
     "parcel": "^2.8.3"
-  }
+  },
+  "type": "module"
 }
