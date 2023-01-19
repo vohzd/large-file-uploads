@@ -1,0 +1,21 @@
+{
+  "name": "large-file-uploads",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel pages/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vohzd/large-file-uploads.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vohzd/large-file-uploads/issues"
+  },
+  "homepage": "https://github.com/vohzd/large-file-uploads#readme",
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "parcel": "^2.8.3"
+  }
+}
